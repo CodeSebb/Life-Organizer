@@ -7,7 +7,7 @@ import { RootStackScreenProps, RootTabParamList, RootTabScreenProps } from '../t
 export default function TabTwoScreen({navigation}:RootTabScreenProps<'TabTwo'>) {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Sadie</Text>
+      <Text style={styles.title}>Pet</Text>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
       <EditScreenInfo path="/screens/TabTwoScreen.tsx" />
     </View>

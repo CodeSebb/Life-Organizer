@@ -91,7 +91,7 @@ function BottomTabNavigator() {
         name="TabTwo"
         component={TabTwoScreen}
         options={{
-          title: 'Sadie',
+          title: 'Pet',
           tabBarIcon: ({ color }) => <TabBarIcon name="heart" color={color} />,
         }}
       />

@@ -11,11 +11,9 @@ export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'
   return (
     <div>
       <View>
-        <LinearGradient
-        colors={['#EBF4F5','#B5C6E0']}>
           <View style={styles.container}>
             <Text style={styles.title}>Schedule</Text>
-            <MyCalendar />
+            <MyCalendar/>
           </View>
           <View style={styles.container}>
             <Text style={styles.title}>Time Bank</Text>
@@ -23,7 +21,6 @@ export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'
           <View style={styles.container}>
             <Text style={styles.title}>Documentation</Text>
           </View>
-        </LinearGradient>
       </View>
     </div>
   );
@@ -54,6 +51,8 @@ const styles = StyleSheet.create({
     alignItems: 'flex-end',
   },
   background: {
+    color: '#EBF4F5',
+    backgroundColor: '#EBF4F5'
   }
 });
 
